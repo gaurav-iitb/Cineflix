@@ -1,0 +1,9 @@
+.homepage{
+    width: 100vw;
+    background-color: black;
+    color: wheat;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}

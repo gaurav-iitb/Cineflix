@@ -1,0 +1,16 @@
+.watch{
+    width: 100vw;
+}
+.content-video{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    color: white;
+    display: flex;
+    align-items: center;
+}

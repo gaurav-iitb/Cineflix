@@ -1,0 +1,70 @@
+.nav-bar{
+    background-color: rgba(0,0,0,0.9);
+    width: 100vw;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.left-txt{
+    font-size: 40px;
+    color: rgb(45, 207, 232);
+}
+.right-txt{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icons{
+    color: white !important;
+}
+.profile-ic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.no-top1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    right: 249px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    z-index: 999;
+}
+.no-top2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    right: 199px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    z-index: 999;
+}
+.but-nav{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}

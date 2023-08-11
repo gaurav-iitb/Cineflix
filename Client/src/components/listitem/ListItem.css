@@ -1,0 +1,71 @@
+.listitem{
+    width: 225px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.listitem-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+video{
+    width: 100%;
+    height: 140px; 
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.listitem:hover{
+    width: 325px;
+    height: 300px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    position: absolute;
+    top: -150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.listitem:hover img{
+    height: 140px;
+}
+.item-info{
+    color: white;
+    display: flex;
+    margin-left: 3px;
+}
+.icon-2{
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid white;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+.iteminfo-bot{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-left: 5px;
+    margin-top: -7px;
+}
+.age-limit{
+    border: 1px solid gray;
+    padding: 1px 3px;
+    margin: 0 10px;
+}
+.description{
+    width: 99%;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+.genre{
+    margin-left: 5px;
+}
+/* .over-cont{
+    display: flex;
+    flex-direction: column;
+} */
